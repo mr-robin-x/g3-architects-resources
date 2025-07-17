@@ -170,6 +170,7 @@ nav a{
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 margin-bottom: 20px;
 padding: 40px;
+border-radius: 8px;
 }
  .card-heading{
     margin-bottom: 10px;
@@ -196,6 +197,8 @@ padding: 40px;
     color:white;
     margin-left: -85px;
     margin-top: -125px;
+    border:none;
+    border-radius: 8px;
 }
 .btn-position:hover{
     background-color: #0056b3;
