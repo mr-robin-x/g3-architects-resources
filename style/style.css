@@ -74,6 +74,9 @@
     align-items: center;
     
 }
+.logo-section{
+    margin-bottom: 5px;
+}
 nav a{
     text-decoration: none;
 }
@@ -272,9 +275,10 @@ border-radius: 8px;
 
 
 @media screen and (max-width:658px){
-    .logo-nav{ 
+    .logo-nav, .nav-item{ 
         flex-direction: column;
-        justify-content: center;
+        gap:5px;
+       
     }
     .features{
         flex-direction: column;
